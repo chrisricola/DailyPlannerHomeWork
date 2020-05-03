@@ -24,8 +24,7 @@ $(".saveBtn").click(function() {
 
 // render local storage
 
-// $('.txtArea').val(localStorage.getItem('9'))
-// $('.txtArea').val(localStorage.getItem('10'))
-// // $('.txtArea').val(localStorage.getItem('11'))
+$('.txtArea').val(localStorage.getItem('#'))
+
 
 
