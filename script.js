@@ -16,18 +16,16 @@ for (var i = 9; i < 18; i++) {
 }
 
 $(".saveBtn").click(function() {
-    var txtValue = $(this).prev(".txtArea").val();
-    var txtKey = $(this).prev(".txtArea").attr("id")
+    var txtValue = $(this).prev('.txtArea').val();
+    var txtKey = $(this).prev('.txtArea').attr("id")
     localStorage.setItem(txtKey,txtValue)
     console.log(txtKey,txtValue);
 });
 
 // render local storage
-localStorage
-// $('.textArea9').val(localStorage.getItem('9'))
-// $(".txtArea10").val(localStorage.getItem('10'))
-// $('.txtArea').val(localStorage.getItem('11'))
+
+// $('.txtArea').val(localStorage.getItem('9'))
+// $('.txtArea').val(localStorage.getItem('10'))
+// // $('.txtArea').val(localStorage.getItem('11'))
 
 
-//set the format of timeblocks to dynamically change its color based on time of the day
-// compare id (9 for 9am) and if id < currenTime set class to .past
